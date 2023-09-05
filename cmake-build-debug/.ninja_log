@@ -1,0 +1,12 @@
+# ninja log v5
+3	273	7156144668901510	CMakeFiles/untitled.dir/main.c.obj	234536216c7a5064
+268	507	7156199025918320	untitled.exe	a7d9b236b4f5f9b5
+3	250	7156205741670287	build.ninja	a59cf6137b3ab216
+2	267	7156199023629795	CMakeFiles/untitled.dir/Resistance.c.obj	a19ad159152ac643
+24	268	7156199023629795	CMakeFiles/untitled.dir/Power.c.obj	b38b7e1b6fe36d7a
+3	285	7156252124863241	CMakeFiles/untitled.dir/main.c.obj	234536216c7a5064
+27	295	7156252124963204	CMakeFiles/untitled.dir/Amperage.c.obj	11005095933e6366
+45	308	7156252125083147	CMakeFiles/untitled.dir/Voltage.c.obj	c1a2f48937f4cf92
+308	526	7156252127218922	untitled.exe	746b7e5e4cfa8377
+3	295	7156252477297698	CMakeFiles/untitled.dir/main.c.obj	234536216c7a5064
+295	522	7156252479476677	untitled.exe	746b7e5e4cfa8377
