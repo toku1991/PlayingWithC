@@ -8,4 +8,6 @@ add_executable(untitled main.c
         Power.c
         Voltage.c
         Amperage.c
+        Charge.c
+        Capacitance.c
 )

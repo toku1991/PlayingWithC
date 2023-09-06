@@ -8,4 +8,5 @@ void Resistance();
 void Voltage();
 void Power();
 void Ampere();
+void Charge();
 #endif //UNTITLED_EXTERNALFUNCTIONS_H

@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include "ExternalFunctions.h"
 
-long double power,volt,ampere,resistance,output;
-int choice,result,Presult,Vresult,Aresult,Rresult,c;
+long double power,volt,ampere,resistance,coulombs,farad,output;
+int choice,result,Presult,Vresult,Aresult,Rresult,Fresult,Cresult,c;
 
 
 int main() {
     do{
-        printf("What do you want to calculate?\n1: Resistance\n2: Voltage\n3: Amperage\n4: Power\n");
+        printf("What do you want to calculate?\n1: Resistance\n2: Voltage\n3: Amperage\n4: Power\n5: Charge\n6:Capacitance\n7: Time\n");
         result = scanf("%d", &choice);
         if (result == 1) {
-            if (choice > 0 && choice <= 4) {
+            if (choice > 0 && choice <= 7) {
                 switch (choice) {
                     case 1:
                         Resistance();
@@ -23,6 +23,9 @@ int main() {
                         break;
                     case 4:
                         Power();
+                        break;
+                    case 5:
+                        Charge();
                         break;
                 }
             }
