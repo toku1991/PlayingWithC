@@ -2,11 +2,12 @@
 #include "ExternalFunctions.h"
 
 long double power,volt,ampere,resistance,coulombs,farad,output;
-int choice,result,Presult,Vresult,Aresult,Rresult,Fresult,Cresult,c;
+int choice,result,result2,Presult,Vresult,Aresult,Rresult,Fresult,Cresult,unit1,unit2,c;
 
 
 int main() {
     do{
+
         printf("What do you want to calculate?\n1: Resistance\n2: Voltage\n3: Amperage\n4: Power\n5: Charge\n6:Capacitance\n7: Time\n");
         result = scanf("%d", &choice);
         if (result == 1) {
@@ -36,7 +37,6 @@ int main() {
             }
 
         } else {
-            int c;
             while ((c = getchar()) != '\n' && c != EOF);
             printf("Invalid input. Please enter a valid number.\n");
             continue;

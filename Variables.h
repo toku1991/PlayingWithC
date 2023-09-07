@@ -5,6 +5,6 @@
 #ifndef UNTITLED_VARIABLES_H
 #define UNTITLED_VARIABLES_H
 extern long double power,volt,ampere,resistance,coulombs,farad,output;
-extern int choice,result,Presult,Vresult,Aresult,Rresult,Fresult,Cresult,c;
+extern int choice,result,result2,Presult,Vresult,Aresult,Rresult,Fresult,Cresult,unit1,unit2,c;
 
 #endif //UNTITLED_VARIABLES_H

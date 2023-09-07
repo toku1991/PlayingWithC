@@ -158,6 +158,7 @@ int Resistance() {
             printf("Invalid input. Please enter a valid number.\n");
             continue;  // Go back to input if the choice is invalid.
         }
+        break;
     }
      while (1);  // Infinite loop for handling different resistance calculation scenarios.
     return 0;
